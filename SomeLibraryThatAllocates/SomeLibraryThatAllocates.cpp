@@ -1,8 +1,6 @@
 // SomeLibraryThatAllocates.cpp : Defines the exported functions for the DLL.
 //
 
-#define SOMELIBRARYTHATALLOCATES_EXPORTS 1
-
 #include "SomeLibraryThatAllocates.h"
 #include <stdlib.h>
 #include <stdio.h>
