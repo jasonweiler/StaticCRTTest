@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StaticMallocDLLTest", "StaticMallocDLLTest.vcxproj", "{9CC4E6FD-9CFE-42AF-B870-7C20252CA5BC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AC8FC840-3496-4A20-9103-19E6E8D4B180} = {AC8FC840-3496-4A20-9103-19E6E8D4B180}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SomeLibraryThatAllocates", "..\SomeLibraryThatAllocates\SomeLibraryThatAllocates.vcxproj", "{AC8FC840-3496-4A20-9103-19E6E8D4B180}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug - DLL CRT|x64 = Debug - DLL CRT|x64
+		Debug - Static CRT|x64 = Debug - Static CRT|x64
+		Release - DLL CRT|x64 = Release - DLL CRT|x64
+		Release - Static CRT|x64 = Release - Static CRT|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CC4E6FD-9CFE-42AF-B870-7C20252CA5BC}.Debug - DLL CRT|x64.ActiveCfg = Debug - DLL CRT|x64
+		{9CC4E6FD-9CFE-42AF-B870-7C20252CA5BC}.Debug - DLL CRT|x64.Build.0 = Debug - DLL CRT|x64
+		{9CC4E6FD-9CFE-42AF-B870-7C20252CA5BC}.Debug - Static CRT|x64.ActiveCfg = Debug - Static CRT|x64
+		{9CC4E6FD-9CFE-42AF-B870-7C20252CA5BC}.Debug - Static CRT|x64.Build.0 = Debug - Static CRT|x64
+		{9CC4E6FD-9CFE-42AF-B870-7C20252CA5BC}.Release - DLL CRT|x64.ActiveCfg = Release - DLL CRT|x64
+		{9CC4E6FD-9CFE-42AF-B870-7C20252CA5BC}.Release - DLL CRT|x64.Build.0 = Release - DLL CRT|x64
+		{9CC4E6FD-9CFE-42AF-B870-7C20252CA5BC}.Release - Static CRT|x64.ActiveCfg = Release - Static CRT|x64
+		{9CC4E6FD-9CFE-42AF-B870-7C20252CA5BC}.Release - Static CRT|x64.Build.0 = Release - Static CRT|x64
+		{AC8FC840-3496-4A20-9103-19E6E8D4B180}.Debug - DLL CRT|x64.ActiveCfg = Debug - DLL CRT|x64
+		{AC8FC840-3496-4A20-9103-19E6E8D4B180}.Debug - DLL CRT|x64.Build.0 = Debug - DLL CRT|x64
+		{AC8FC840-3496-4A20-9103-19E6E8D4B180}.Debug - Static CRT|x64.ActiveCfg = Debug - Static CRT|x64
+		{AC8FC840-3496-4A20-9103-19E6E8D4B180}.Debug - Static CRT|x64.Build.0 = Debug - Static CRT|x64
+		{AC8FC840-3496-4A20-9103-19E6E8D4B180}.Release - DLL CRT|x64.ActiveCfg = Release - DLL CRT|x64
+		{AC8FC840-3496-4A20-9103-19E6E8D4B180}.Release - DLL CRT|x64.Build.0 = Release - DLL CRT|x64
+		{AC8FC840-3496-4A20-9103-19E6E8D4B180}.Release - Static CRT|x64.ActiveCfg = Release - Static CRT|x64
+		{AC8FC840-3496-4A20-9103-19E6E8D4B180}.Release - Static CRT|x64.Build.0 = Release - Static CRT|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9CFE70B8-A94D-4C95-A410-FA4E0A6758EA}
+	EndGlobalSection
+EndGlobal
